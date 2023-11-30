@@ -1,6 +1,7 @@
+//circular singly
 #include <stdio.h>
 #include <stdlib.h>
-struct node
+struct node // Initialization of node data type
 {
     int data;
     struct node *next;
