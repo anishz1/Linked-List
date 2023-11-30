@@ -1,11 +1,11 @@
 //circular singly
 #include <stdio.h>
 #include <stdlib.h>
-struct node // Initialization of node data type
+struct node 
 {
     int data;
     struct node *next;
-};
+};// Initialization of node data type
 struct node *head;
 
 void beginsert();
